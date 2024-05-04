@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
+	<style>
+		body{
+			background-color: #41B5F2;
+		}
+		#edel{
+			width: 250px;
+			size: 250px;
+		}
+	</style>
+	<title>Q4 Quiz 1</title>
+</head>
+<body>
+<center>
+	<div id="login-container">
+		<div class="col-md-10">
+			<img id="edel" src="https://media.thebodyshop.com/i/thebodyshop/06-2022-Q1-EDELWEISS-THE-BENEFITS-DOY-200pc-MOBILE?$amplience-ct1-xs-img1$&fmt=auto"><br><br>
+
+		<form action="mainpage.html" class="form-group">
+			<label id="label"></label><br>
+			<input type="text" class="form-control bg-light" name="email" id="email">
+			<br>
+			<label id="label2"></label><br>
+			<input type="text" class="form-control bg-light" name="emailps" id="email-s">
+			<br>
+			<a href="mainpage.html"><button class="btn btn-success">Login</button></a>
+			<a href="#"><button type="reset" class="btn btn-light">Cancel</button></a>
+		</form>
+	    </div>
+    </div>
+</center>
+<script type="text/javascript">
+	document.getElementById("label").innerHTML = "Email:"
+	document.getElementById("label2").innerHTML = "Password:"
+</script>
+</body>
+</html>
